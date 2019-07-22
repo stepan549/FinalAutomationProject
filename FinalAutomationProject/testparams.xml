@@ -1,0 +1,53 @@
+<settings>
+    <tests>
+        <test name="LoginTest">
+            <param name="MAIN_PAGE" value="https://mail.ru/"/>
+            <param name="PAGE_LOAD_TIMEOUT" value="70"/>
+            <param name="GET_LOGIN" value="1"/>
+            <param name="INCORRECT_PASSWORD" value="3isTgh4By93"/>
+        </test>
+        <test name="LogoutTest">
+            <param name="MAIN_PAGE" value="https://mail.ru/"/>
+            <param name="PAGE_LOAD_TIMEOUT" value="70"/>
+            <param name="GET_LOGIN" value="1"/>
+        </test>
+        <test name="CreateFolderTest">
+            <param name="FOLDER_NAME" value="3isTgh4By93"/>
+            <param name="MAIN_PAGE" value="https://mail.ru/"/>
+            <param name="PAGE_LOAD_TIMEOUT" value="70"/>
+            <param name="GET_LOGIN" value="1"/>
+        </test>
+        <test name="DeleteMessageTest">
+            <param name="MAIN_PAGE" value="https://mail.ru/"/>
+            <param name="PAGE_LOAD_TIMEOUT" value="70"/>
+            <param name="GET_LOGIN" value="1"/>
+        </test>
+        <test name="FilterTest">
+            <param name="MAIN_PAGE" value="https://mail.ru/"/>
+            <param name="PAGE_LOAD_TIMEOUT" value="40"/>
+            <param name="GET_LOGIN" value="1"/>
+        </test>
+        <test name="SpamTest">
+            <param name="MAIN_PAGE" value="https://mail.ru/"/>
+            <param name="PAGE_LOAD_TIMEOUT" value="50"/>
+            <param name="GET_LOGIN" value="1"/>
+        </test>
+        <test name="SendMessageTest">
+            <param name="MAIN_PAGE" value="https://mail.ru/"/>
+            <param name="PAGE_LOAD_TIMEOUT" value="70"/>
+            <param name="GET_LOGIN" value="1"/>
+        </test>
+        <test name="VKPostTest">
+            <param name="POST" value="123321123"/>
+            <param name="EDIT_POST_ON" value="123"/>
+        </test>
+        <test name="steps.ResendStep">
+            <param name="MAIN_PAGE" value="https://mail.ru/"/>
+            <param name="GET_LOGIN" value="1"/>
+        </test>
+        <test name="steps.ReturnFromSpamStep">
+            <param name="MAIN_PAGE" value="https://mail.ru/"/>
+            <param name="GET_LOGIN" value="1"/>
+        </test>
+    </tests>
+</settings>
