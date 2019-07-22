@@ -25,10 +25,8 @@ public class StaxParser {
     private SettingsData settingsData;
     List<SettingsData> settingsDataList = new ArrayList<>();
 
-    public List<SettingsData> parse(XMLEventReader xmlEventReader) throws FileNotFoundException, XMLStreamException
-    {
-        while (xmlEventReader.hasNext())
-        {
+    public List<SettingsData> parse(XMLEventReader xmlEventReader) throws FileNotFoundException, XMLStreamException {
+        while (xmlEventReader.hasNext()) {
             XMLEvent xmlEvent = xmlEventReader.nextEvent();
             proceedStartElement(xmlEvent, xmlEventReader);
             proceedEndElement(xmlEvent);
@@ -36,24 +34,17 @@ public class StaxParser {
         return settingsDataList;
     }
 
-    private void proceedStartElement(XMLEvent xmlEvent, XMLEventReader xmlEventReader) throws XMLStreamException
-    {
-        if (xmlEvent.isStartElement())
-        {
+    private void proceedStartElement(XMLEvent xmlEvent, XMLEventReader xmlEventReader) throws XMLStreamException {
+        if (xmlEvent.isStartElement()) {
             StartElement startElement = xmlEvent.asStartElement();
-            if (isTagNameEqual(startElement, TEST))
-            {
+            if (isTagNameEqual(startElement, TEST)) {
                 settingsData = new SettingsData();
                 Attribute attribute = startElement.getAttributeByName(new QName(NAME));
-                if (attribute != null)
-                {
+                if (attribute != null) {
                     settingsData.setName(attribute.getValue());
                     paramData = new HashMap<>();
                 }
-            }
-            // set the other varibles from xml elements
-            else if (isTagNameEqual(startElement, PARAM))
-            {
+            } else if (isTagNameEqual(startElement, PARAM)) {
                 String name = startElement.getAttributeByName(new QName(NAME)).getValue();
                 String value = startElement.getAttributeByName(new QName(VALUE)).getValue();
                 paramData.put(name, value);
@@ -61,21 +52,17 @@ public class StaxParser {
         }
     }
 
-    private void proceedEndElement(XMLEvent xmlEvent)
-    {
-        if (xmlEvent.isEndElement())
-        {
+    private void proceedEndElement(XMLEvent xmlEvent) {
+        if (xmlEvent.isEndElement()) {
             EndElement endElement = xmlEvent.asEndElement();
-            if (endElement.getName().getLocalPart().equals(TEST))
-            {
+            if (endElement.getName().getLocalPart().equals(TEST)) {
                 settingsData.setData(paramData);
                 settingsDataList.add(settingsData);
             }
         }
     }
 
-    private boolean isTagNameEqual(StartElement startElement, String tagName)
-    {
+    private boolean isTagNameEqual(StartElement startElement, String tagName) {
         return startElement.getName().getLocalPart().equals(tagName);
     }
 }

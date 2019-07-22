@@ -41,9 +41,9 @@ public class CreateFolderTest {
         SettingsData settingsData = Parser.getSettingData(getClass().getName(), UseParser.STAX);
         MAIN_PAGE = (String) SettingParameter.getParameter("MAIN_PAGE", settingsData);
         logger.info("Get parameter MAIN_PAGE: " + MAIN_PAGE);
-        PAGE_LOAD_TIMEOUT = Integer.parseInt((String)SettingParameter.getParameter("PAGE_LOAD_TIMEOUT", settingsData));
+        PAGE_LOAD_TIMEOUT = Integer.parseInt((String) SettingParameter.getParameter("PAGE_LOAD_TIMEOUT", settingsData));
         logger.info("Get parameter PAGE_LOAD_TIMEOUT: " + PAGE_LOAD_TIMEOUT);
-        GET_LOGIN = Integer.parseInt((String)SettingParameter.getParameter("GET_LOGIN", settingsData));
+        GET_LOGIN = Integer.parseInt((String) SettingParameter.getParameter("GET_LOGIN", settingsData));
         logger.info("Get parameter GET_LOGIN: " + GET_LOGIN);
         FOLDER_NAME = (String) SettingParameter.getParameter("FOLDER_NAME", settingsData);
         logger.info("Get parameter FOLDER_NAME: " + FOLDER_NAME);

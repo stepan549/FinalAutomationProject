@@ -1,11 +1,6 @@
-import api.APIVKFunctions;
 import model.SettingsData;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.utils.URIBuilder;
-import org.apache.http.util.TextUtils;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.xml.sax.SAXException;
@@ -17,11 +12,9 @@ import patterns.PostFacade;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.stream.XMLStreamException;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.net.URISyntaxException;
 
 public class VKPostTest {
-    private APIVKFunctions functions = new APIVKFunctions();
     private static String POST;
     private static String EDIT_POST_ON;
     private static final Logger logger = Logger.getLogger(VKPostTest.class);

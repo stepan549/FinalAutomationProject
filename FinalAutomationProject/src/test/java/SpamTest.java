@@ -37,9 +37,9 @@ public class SpamTest {
         SettingsData settingsData = Parser.getSettingData(getClass().getName(), UseParser.DOM);
         MAIN_PAGE = (String) SettingParameter.getParameter("MAIN_PAGE", settingsData);
         logger.info("Get parameter MAIN_PAGE: " + MAIN_PAGE);
-        PAGE_LOAD_TIMEOUT = Integer.parseInt((String)SettingParameter.getParameter("PAGE_LOAD_TIMEOUT", settingsData));
+        PAGE_LOAD_TIMEOUT = Integer.parseInt((String) SettingParameter.getParameter("PAGE_LOAD_TIMEOUT", settingsData));
         logger.info("Get parameter PAGE_LOAD_TIMEOUT: " + PAGE_LOAD_TIMEOUT);
-        GET_LOGIN = Integer.parseInt((String)SettingParameter.getParameter("GET_LOGIN", settingsData));
+        GET_LOGIN = Integer.parseInt((String) SettingParameter.getParameter("GET_LOGIN", settingsData));
         logger.info("Get parameter GET_LOGIN: " + GET_LOGIN);
         DatabaseOperations databaseOperations = new DatabaseOperations();
         logger.info("Request login data by ID = " + GET_LOGIN);

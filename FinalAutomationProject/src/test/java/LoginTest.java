@@ -70,7 +70,7 @@ public class LoginTest {
     }
 
     @AfterMethod
-    public void after(ITestResult result) {
+    public void after(ITestResult result) throws IOException {
         Screenshot.saveScreenshotPNG(driver, result.getMethod().getMethodName());
         DriverSingleton.quit();
         eyes.abortIfNotClosed();
@@ -88,7 +88,6 @@ public class LoginTest {
         } else {
             Assert.assertTrue(testResults.isPassed());
         }
-        //Assert.assertTrue(loginPage.isLogoutLinkDisplayed());
     }
 
     @Test
@@ -103,6 +102,5 @@ public class LoginTest {
         } else {
             Assert.assertTrue(testResults.isPassed());
         }
-        //Assert.assertTrue(loginPage.idErrorDisplayed());
     }
 }

@@ -1,0 +1,88 @@
+21:22:45,722  INFO main LoginTest:setUpDriver:45 - Get parameter MAIN_PAGE: https://mail.ru/
+21:22:45,730  INFO main LoginTest:setUpDriver:47 - Get parameter PAGE_LOAD_TIMEOUT: 70
+21:22:45,732  INFO main LoginTest:setUpDriver:49 - Get parameter GET_LOGIN: 1
+21:22:45,732  INFO main LoginTest:setUpDriver:51 - Get parameter INCORRECT_PASSWORD: 3isTgh4By93
+21:25:40,141  INFO main LoginTest:setUpDriver:45 - Get parameter MAIN_PAGE: https://mail.ru/
+21:25:40,156  INFO main LoginTest:setUpDriver:47 - Get parameter PAGE_LOAD_TIMEOUT: 70
+21:25:40,156  INFO main LoginTest:setUpDriver:49 - Get parameter GET_LOGIN: 1
+21:25:40,156  INFO main LoginTest:setUpDriver:51 - Get parameter INCORRECT_PASSWORD: 3isTgh4By93
+21:27:11,676  INFO main LoginTest:setUpDriver:45 - Get parameter MAIN_PAGE: https://mail.ru/
+21:27:11,685  INFO main LoginTest:setUpDriver:47 - Get parameter PAGE_LOAD_TIMEOUT: 70
+21:27:11,685  INFO main LoginTest:setUpDriver:49 - Get parameter GET_LOGIN: 1
+21:27:11,685  INFO main LoginTest:setUpDriver:51 - Get parameter INCORRECT_PASSWORD: 3isTgh4By93
+21:27:11,979  INFO main LoginTest:setUpDriver:54 - Request login data by ID = 1
+21:27:11,979  INFO main LoginTest:setUpDriver:57 - Response data: login aleksandr.sats, password SaG03121996
+21:27:31,432  INFO main LoginTest:before:69 - Open page https://mail.ru/
+21:27:34,714  INFO main LoginTest:negativeLogin:98 - Log in via login aleksandr.sats and password SaG03121996
+21:27:56,240  INFO main LoginTest:setUpDriver:45 - Get parameter MAIN_PAGE: https://mail.ru/
+21:27:56,242  INFO main LoginTest:setUpDriver:47 - Get parameter PAGE_LOAD_TIMEOUT: 70
+21:27:56,242  INFO main LoginTest:setUpDriver:49 - Get parameter GET_LOGIN: 1
+21:27:56,242  INFO main LoginTest:setUpDriver:51 - Get parameter INCORRECT_PASSWORD: 3isTgh4By93
+21:27:56,514  INFO main LoginTest:setUpDriver:54 - Request login data by ID = 1
+21:27:56,514  INFO main LoginTest:setUpDriver:57 - Response data: login aleksandr.sats, password SaG03121996
+21:28:13,581  INFO main LoginTest:before:69 - Open page https://mail.ru/
+21:28:16,216  INFO main LoginTest:negativeLogin:98 - Log in via login aleksandr.sats and password SaG03121996
+21:28:49,691  INFO main LoginTest:setUpDriver:45 - Get parameter MAIN_PAGE: https://mail.ru/
+21:28:49,691  INFO main LoginTest:setUpDriver:47 - Get parameter PAGE_LOAD_TIMEOUT: 70
+21:28:49,691  INFO main LoginTest:setUpDriver:49 - Get parameter GET_LOGIN: 1
+21:28:49,691  INFO main LoginTest:setUpDriver:51 - Get parameter INCORRECT_PASSWORD: 3isTgh4By93
+21:28:49,986  INFO main LoginTest:setUpDriver:54 - Request login data by ID = 1
+21:28:49,986  INFO main LoginTest:setUpDriver:57 - Response data: login aleksandr.sats, password SaG03121996
+21:29:07,335  INFO main LoginTest:before:69 - Open page https://mail.ru/
+21:29:09,902  INFO main LoginTest:negativeLogin:98 - Log in via login aleksandr.sats and password SaG03121996
+22:24:48,065  INFO main LoginTest:setUpDriver:45 - Get parameter MAIN_PAGE: https://mail.ru/
+22:24:48,096  INFO main LoginTest:setUpDriver:47 - Get parameter PAGE_LOAD_TIMEOUT: 70
+22:24:48,096  INFO main LoginTest:setUpDriver:49 - Get parameter GET_LOGIN: 1
+22:24:48,096  INFO main LoginTest:setUpDriver:51 - Get parameter INCORRECT_PASSWORD: 3isTgh4By93
+22:24:49,022  INFO main LoginTest:setUpDriver:54 - Request login data by ID = 1
+22:24:49,022  INFO main LoginTest:setUpDriver:57 - Response data: login aleksandr.sats, password SaG03121996
+22:25:09,587  INFO main LoginTest:before:69 - Open page https://mail.ru/
+22:25:13,890  INFO main LoginTest:negativeLogin:98 - Log in via login aleksandr.sats and password SaG03121996
+22:28:54,975  INFO main LoginTest:setUpDriver:45 - Get parameter MAIN_PAGE: https://mail.ru/
+22:28:54,978  INFO main LoginTest:setUpDriver:47 - Get parameter PAGE_LOAD_TIMEOUT: 70
+22:28:54,978  INFO main LoginTest:setUpDriver:49 - Get parameter GET_LOGIN: 1
+22:28:54,978  INFO main LoginTest:setUpDriver:51 - Get parameter INCORRECT_PASSWORD: 3isTgh4By93
+22:28:55,305  INFO main LoginTest:setUpDriver:54 - Request login data by ID = 1
+22:28:55,305  INFO main LoginTest:setUpDriver:57 - Response data: login aleksandr.sats, password SaG03121996
+22:29:07,198  INFO main LoginTest:before:69 - Open page https://mail.ru/
+22:29:10,033  INFO main LoginTest:negativeLogin:98 - Log in via login aleksandr.sats and password SaG03121996
+22:29:55,888  INFO main LoginTest:setUpDriver:45 - Get parameter MAIN_PAGE: https://mail.ru/
+22:29:55,903  INFO main LoginTest:setUpDriver:47 - Get parameter PAGE_LOAD_TIMEOUT: 70
+22:29:55,903  INFO main LoginTest:setUpDriver:49 - Get parameter GET_LOGIN: 1
+22:29:55,903  INFO main LoginTest:setUpDriver:51 - Get parameter INCORRECT_PASSWORD: 3isTgh4By93
+22:29:56,185  INFO main LoginTest:setUpDriver:54 - Request login data by ID = 1
+22:29:56,185  INFO main LoginTest:setUpDriver:57 - Response data: login aleksandr.sats, password SaG03121996
+22:30:08,359  INFO main LoginTest:before:69 - Open page https://mail.ru/
+22:30:11,239  INFO main LoginTest:negativeLogin:98 - Log in via login aleksandr.sats and password SaG03121996
+22:33:25,595  INFO main LoginTest:setUpDriver:45 - Get parameter MAIN_PAGE: https://mail.ru/
+22:33:25,595  INFO main LoginTest:setUpDriver:47 - Get parameter PAGE_LOAD_TIMEOUT: 70
+22:33:25,595  INFO main LoginTest:setUpDriver:49 - Get parameter GET_LOGIN: 1
+22:33:25,595  INFO main LoginTest:setUpDriver:51 - Get parameter INCORRECT_PASSWORD: 3isTgh4By93
+22:33:25,908  INFO main LoginTest:setUpDriver:54 - Request login data by ID = 1
+22:33:25,908  INFO main LoginTest:setUpDriver:57 - Response data: login aleksandr.sats, password SaG03121996
+22:33:38,063  INFO main LoginTest:before:69 - Open page https://mail.ru/
+22:33:40,808  INFO main LoginTest:negativeLogin:98 - Log in via login aleksandr.sats and password SaG03121996
+22:34:32,587  INFO main LoginTest:setUpDriver:45 - Get parameter MAIN_PAGE: https://mail.ru/
+22:34:32,591  INFO main LoginTest:setUpDriver:47 - Get parameter PAGE_LOAD_TIMEOUT: 70
+22:34:32,591  INFO main LoginTest:setUpDriver:49 - Get parameter GET_LOGIN: 1
+22:34:32,591  INFO main LoginTest:setUpDriver:51 - Get parameter INCORRECT_PASSWORD: 3isTgh4By93
+22:34:32,910  INFO main LoginTest:setUpDriver:54 - Request login data by ID = 1
+22:34:32,911  INFO main LoginTest:setUpDriver:57 - Response data: login aleksandr.sats, password SaG03121996
+22:34:44,689  INFO main LoginTest:before:69 - Open page https://mail.ru/
+22:34:47,510  INFO main LoginTest:negativeLogin:98 - Log in via login aleksandr.sats and password SaG03121996
+22:48:02,548  INFO main LogoutTest:setUp:39 - Get parameter MAIN_PAGE: https://mail.ru/
+22:48:02,550  INFO main LogoutTest:setUp:41 - Get parameter PAGE_LOAD_TIMEOUT: 70
+22:48:02,550  INFO main LogoutTest:setUp:43 - Get parameter GET_LOGIN: 1
+22:48:02,552  INFO main LogoutTest:setUp:45 - Request login data by ID = 1
+22:48:02,802  INFO main LogoutTest:setUp:49 - Response data: login aleksandr.sats, password SaG03121996
+22:48:14,403  INFO main LogoutTest:before:58 - Open page https://mail.ru/
+22:48:18,906  INFO main LogoutTest:logoutTest:70 - Log in via login aleksandr.sats and password SaG03121996
+22:48:19,589  INFO main LogoutTest:logoutTest:72 - Click logout link
+22:52:17,831  INFO main LoginTest:setUpDriver:45 - Get parameter MAIN_PAGE: https://mail.ru/
+22:52:17,834  INFO main LoginTest:setUpDriver:47 - Get parameter PAGE_LOAD_TIMEOUT: 70
+22:52:17,835  INFO main LoginTest:setUpDriver:49 - Get parameter GET_LOGIN: 1
+22:52:17,835  INFO main LoginTest:setUpDriver:51 - Get parameter INCORRECT_PASSWORD: 3isTgh4By93
+22:52:18,118  INFO main LoginTest:setUpDriver:54 - Request login data by ID = 1
+22:52:18,118  INFO main LoginTest:setUpDriver:57 - Response data: login aleksandr.sats, password SaG03121996
+22:52:29,455  INFO main LoginTest:before:69 - Open page https://mail.ru/
+22:52:32,265  INFO main LoginTest:negativeLogin:97 - Log in via login aleksandr.sats and password SaG03121996

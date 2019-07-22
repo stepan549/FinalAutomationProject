@@ -65,20 +65,20 @@ public class MessagePage {
                 .getText();
     }
 
-    public void clickDeleteMessage(){
+    public void clickDeleteMessage() {
         messageMore.click();
         (new WebDriverWait(driver, WAIT_TIMEOUT)).until(ExpectedConditions.visibilityOf(removeLink)).click();
     }
 
-    public boolean isDisplayedDeleteMessage(){
+    public boolean isDisplayedDeleteMessage() {
         return (new WebDriverWait(driver, WAIT_TIMEOUT)).until(ExpectedConditions.visibilityOf(deleteMessage)).isDisplayed();
     }
 
-    public boolean isDisplayedDraftMessage(){
+    public boolean isDisplayedDraftMessage() {
         return (new WebDriverWait(driver, WAIT_TIMEOUT)).until(ExpectedConditions.visibilityOf(draftMessage)).isDisplayed();
     }
 
-    public void clickSendToDraft(){
+    public void clickSendToDraft() {
         (new WebDriverWait(driver, WAIT_TIMEOUT))
                 .until(ExpectedConditions.elementToBeClickable(messageMore))
                 .click();
@@ -90,7 +90,7 @@ public class MessagePage {
                 .click();
     }
 
-    public ComposePage clickResend(){
+    public ComposePage clickResend() {
         (new WebDriverWait(driver, WAIT_TIMEOUT))
                 .until(ExpectedConditions.elementToBeClickable(messageMore))
                 .click();

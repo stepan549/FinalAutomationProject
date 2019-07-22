@@ -13,14 +13,13 @@ import java.util.List;
 import java.util.Map;
 
 public class DomParser {
-    public List<SettingsData> parse(Document document) throws FileNotFoundException, XMLStreamException
-    {
+    public List<SettingsData> parse(Document document) throws FileNotFoundException, XMLStreamException {
         NodeList nodeList = document.getElementsByTagName("test");
 
         List<SettingsData> settingsDataList = new ArrayList<>();
-        for(int j = 0; j < nodeList.getLength(); j++) {
+        for (int j = 0; j < nodeList.getLength(); j++) {
             SettingsData settingsData = new SettingsData();
-            settingsData.setName(((Element)nodeList.item(j)).getAttribute("name"));
+            settingsData.setName(((Element) nodeList.item(j)).getAttribute("name"));
             NodeList dataItem = nodeList.item(j).getChildNodes();
             Map<String, Object> dataParse = new HashMap<>();
             for (int i = 0; i < dataItem.getLength(); i++) {

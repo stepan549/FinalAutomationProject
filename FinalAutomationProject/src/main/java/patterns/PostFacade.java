@@ -3,7 +3,6 @@ package patterns;
 import api.APIVKFunctions;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.utils.URIBuilder;
-import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.io.InputStreamReader;

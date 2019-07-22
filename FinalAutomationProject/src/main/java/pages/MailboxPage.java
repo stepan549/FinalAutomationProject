@@ -71,12 +71,12 @@ public class MailboxPage {
         PageFactory.initElements(driver, this);
     }
 
-    public MainPage clickLogoutLink(){
+    public MainPage clickLogoutLink() {
         logoutLink.click();
         return new MainPage(driver);
     }
 
-    public void checkFirstMessageByCheckbox(){
+    public void checkFirstMessageByCheckbox() {
         (new WebDriverWait(driver, WAIT_TIMEOUT)).until(ExpectedConditions.visibilityOf(mailCheckbox)).click();
     }
 
@@ -88,7 +88,7 @@ public class MailboxPage {
         return (new WebDriverWait(driver, WAIT_TIMEOUT)).until(ExpectedConditions.visibilityOf(notifySendToSpamMessage)).isDisplayed();
     }
 
-    public void clickSpam(){
+    public void clickSpam() {
         spamFolderLink.click();
     }
 
@@ -162,7 +162,7 @@ public class MailboxPage {
         (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOf(trashButton)).click();
     }
 
-    public MailSettingsPage clickSettings(){
+    public MailSettingsPage clickSettings() {
         settingsLink.click();
         return new MailSettingsPage(driver);
     }

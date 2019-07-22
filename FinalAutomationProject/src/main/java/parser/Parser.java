@@ -1,10 +1,9 @@
 package parser;
 
-import parser.UseParser;
-import parser.dom.DomParser;
 import model.SettingsData;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
+import parser.dom.DomParser;
 import parser.sax.SettingsHandler;
 import parser.stax.StaxParser;
 
@@ -58,8 +57,8 @@ public class Parser {
                 list = getSettingsByDom();
                 break;
         }
-        for(SettingsData settingsData:list){
-            if(settingsData.getName().equalsIgnoreCase(testName)){
+        for (SettingsData settingsData : list) {
+            if (settingsData.getName().equalsIgnoreCase(testName)) {
                 return settingsData;
             }
         }

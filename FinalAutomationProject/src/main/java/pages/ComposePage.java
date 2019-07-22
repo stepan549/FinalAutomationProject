@@ -70,7 +70,7 @@ public class ComposePage {
         addContactsButton.click();
     }
 
-    public void writeMessageTo(String to){
+    public void writeMessageTo(String to) {
         mailToInput.sendKeys(to);
     }
 

@@ -19,7 +19,7 @@ public class DriverSingleton {
         return DRIVER;
     }
 
-    public static void quit(){
+    public static void quit() {
         DRIVER.quit();
         DRIVER = null;
     }
